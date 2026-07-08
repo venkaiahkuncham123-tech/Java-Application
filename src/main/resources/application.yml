@@ -8,7 +8,7 @@ spring:
       template_exception_handler: rethrow
 
 server:
-  port: ${PORT:8080}
+  port: ${PORT:8090}
   tomcat:
     accesslog:
       enabled: true
